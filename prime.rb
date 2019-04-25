@@ -1,7 +1,5 @@
 def prime?(number)
-  if number < 2
-    return false
-  end
+  return false if number < 2
 
   count = 2
   while count <= Math.sqrt(number).floor
