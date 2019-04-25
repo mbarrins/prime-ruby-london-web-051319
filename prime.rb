@@ -1,6 +1,6 @@
 def prime?(number)
   count = 2
-  while count < number
+  while count < Math.sqrt(number).floor
     if number % count == 0
       return false
     end
